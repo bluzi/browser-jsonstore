@@ -1,0 +1,25 @@
+{
+    "name": "browser-jsonstore",
+    "version": "1.0.1",
+    "keywords": ["jsonstore", "database", "datastore", "free"],
+    "description": "Official jsonstore library for the browser",
+    "main": "dist/bundle.js",
+    "scripts": {
+        "test": "jest",
+        "build": "rollup -c"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bluzi/browser-jsonstore.git"
+    },
+    "author": "bluzi <eliran013@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bluzi/browser-jsonstore/issues"
+    },
+    "homepage": "https://www.jsonstore.io/",
+    "devDependencies": {
+        "jest": "^24.9.0",
+        "rollup": "^1.27.13"
+    }
+}
