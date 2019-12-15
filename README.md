@@ -31,7 +31,7 @@ npm i browser-jsonstore
 const jsonstore = require('browser-jsonstore');
 ```
 
-### Initiate with your token
+#### Initiate with your token
 ```js
 const db = jsonstore('<Your personal token>')
 ```
